@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F75552AD2A4C7C2400EB01CE /* note.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F75552AC2A4C7C2400EB01CE /* note.mp3 */; };
 		F79C5D352A497CEB002ADF6B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79C5D342A497CEB002ADF6B /* AppDelegate.swift */; };
 		F79C5D372A497CEB002ADF6B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79C5D362A497CEB002ADF6B /* SceneDelegate.swift */; };
 		F79C5D392A497CEB002ADF6B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79C5D382A497CEB002ADF6B /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F75552AC2A4C7C2400EB01CE /* note.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = note.mp3; path = ../../../../../Downloads/note.mp3; sourceTree = "<group>"; };
 		F79C5D312A497CEB002ADF6B /* ElectronCounter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ElectronCounter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F79C5D342A497CEB002ADF6B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F79C5D362A497CEB002ADF6B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +39,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F75552AA2A4C755200EB01CE /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				F75552AC2A4C7C2400EB01CE /* note.mp3 */,
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
 		F79C5D282A497CEB002ADF6B = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +66,7 @@
 		F79C5D332A497CEB002ADF6B /* ElectronCounter */ = {
 			isa = PBXGroup;
 			children = (
+				F75552AA2A4C755200EB01CE /* Music */,
 				F79C5D342A497CEB002ADF6B /* AppDelegate.swift */,
 				F79C5D362A497CEB002ADF6B /* SceneDelegate.swift */,
 				F79C5D382A497CEB002ADF6B /* ViewController.swift */,
@@ -125,6 +136,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F75552AD2A4C7C2400EB01CE /* note.mp3 in Resources */,
 				F79C5D412A497CED002ADF6B /* LaunchScreen.storyboard in Resources */,
 				F79C5D3E2A497CED002ADF6B /* Assets.xcassets in Resources */,
 				F79C5D3C2A497CEB002ADF6B /* Main.storyboard in Resources */,
@@ -287,6 +299,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NXNV3CZ6KW;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ElectronCounter/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -314,6 +327,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NXNV3CZ6KW;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ElectronCounter/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
